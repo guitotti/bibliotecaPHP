@@ -1,0 +1,74 @@
+.conteudo {
+    align-items: center;
+    background-color: #00a0a0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__input {
+    height: 20px;
+    width: 300px;
+}
+
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-div input, select{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.input-div select:hover, input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-div select:focus-visible, input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.input-div label {
+    color: #000000c0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.input-div input::placeholder {
+    color: #000000be;
+}
+
+#cadastrar {
+
+    background-color: #525252;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size:0.75em;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    padding: 0.62rem;
+    transition: 0.3s;
+    width: 50%;
+}
+
+#cadastrar:hover {
+    background-color: #6a6a6a;
+}
+
